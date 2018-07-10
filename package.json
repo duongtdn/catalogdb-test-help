@@ -1,0 +1,23 @@
+{
+  "name": "catalogdb-test-helper",
+  "version": "1.0.0",
+  "description": "sglearn: catalogdb database test support package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongtdn/catalogdb-test-helper.git"
+  },
+  "author": "duongtdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duongtdn/catalogdb-test-helper/issues"
+  },
+  "homepage": "https://github.com/duongtdn/catalogdb-test-helper#readme",
+  "dependencies": {
+    "catalogdb-dynamodb-driver": "^1.0.0",
+    "database-abstractor": "^1.0.0"
+  }
+}
