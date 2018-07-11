@@ -122,9 +122,9 @@ module.exports = {
     return this;
   },
 
-  _createNewEntry(uid, course) {
+  _createNewEntry(uid, catalog) {
     return new Promise((resolve, reject) => {
-      catalogdb.createCatalog({ uid, course }, (err, data) => {
+      catalogdb.createCatalog({ uid, catalog }, (err, data) => {
         if (err) {
           reject(err);
         } else {
@@ -135,7 +135,7 @@ module.exports = {
   },
 
   _createNewEntries(done) {
-    console.log('Creating new course...')  
+    console.log('Creating new catalog entry...')  
     Promise.all([
       this._createNewEntry('tester@team.com', catalog01), 
     ]).then(values => {
