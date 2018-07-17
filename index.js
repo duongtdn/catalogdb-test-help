@@ -11,9 +11,17 @@ const db = {
 
 const catalog01 = {
   catalogId: 'ca-emb',
-  courses: {
-    courseId: 'emb-01'
-  }
+  courses: [
+    {
+      courseId: 'emb-01',
+      title: 'Emb C-01',
+
+    },
+    {
+      courseId: 'emb-02',
+      title: 'Emb C-02',
+    }
+  ]
   
 }
 
