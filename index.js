@@ -11,15 +11,24 @@ const db = {
 
 const catalog01 = {
   catalogId: 'ca-emb',
+  title: 'Embedded Developer',
   courses: [
     {
       courseId: 'emb-01',
-      title: 'Emb C-01',
+      title: 'We like something',
+      level: 'Basic',
+      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      skills: ['C Programming', 'Embedded processor'],
+      certificates: ['Embedded C Programmer']
 
     },
     {
       courseId: 'emb-02',
-      title: 'Emb C-02',
+      title: 'We buy something',
+      level: 'Intermiate',
+      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      skills: ['C Programming', 'Embedded processor'],
+      certificates: ['Embedded C Programmer']
     }
   ]
   
