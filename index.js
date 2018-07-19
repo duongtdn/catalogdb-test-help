@@ -16,7 +16,7 @@ const catalog01 = {
     {
       courseId: 'emb-01',
       title: 'We like something',
-      level: 'Basic',
+      level: 'Beginner',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
       certificates: ['Embedded C Programmer']
@@ -25,10 +25,10 @@ const catalog01 = {
     {
       courseId: 'emb-02',
       title: 'We buy something',
-      level: 'Intermiate',
+      level: 'Intermidate',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
-      certificates: ['Embedded C Programmer']
+      certificates: ['Embedded C Programmer', 'C Embedded Developer']
     }
   ]
   
