@@ -15,17 +15,25 @@ const catalog01 = {
   courses: [
     {
       courseId: 'emb-01',
-      title: 'We like something',
+      title: 'Beginning Embedded C Programming',
       level: 'Beginner',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
-      skills: ['C Programming', 'Embedded processor'],
+      skills: ['C Programming', 'Embedded ARM processor'],
       certificates: ['Embedded C Programmer']
 
     },
     {
       courseId: 'emb-02',
-      title: 'We buy something',
+      title: 'Embedded Peripherals Programming',
       level: 'Intermidate',
+      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      skills: ['C Programming', 'Embedded processor'],
+      certificates: ['Embedded C Programmer', 'C Embedded Developer']
+    },
+    {
+      courseId: 'emb-03',
+      title: 'Applied C for Embedded Programming in Detail',
+      level: 'Advanced',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
       certificates: ['Embedded C Programmer', 'C Embedded Developer']
