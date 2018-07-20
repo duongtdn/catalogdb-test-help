@@ -11,7 +11,7 @@ const db = {
 
 const catalog01 = {
   catalogId: 'ca-emb',
-  title: 'Embedded Developer',
+  title: 'Embedded System Design',
   courses: [
     {
       courseId: 'emb-01',
@@ -34,6 +34,31 @@ const catalog01 = {
       courseId: 'emb-03',
       title: 'Applied C for Embedded Programming in Detail',
       level: 'Advanced',
+      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      skills: ['C Programming', 'Embedded processor'],
+      certificates: ['Embedded C Programmer', 'C Embedded Developer']
+    }
+  ]
+  
+}
+
+const catalog02 = {
+  catalogId: 'ca-web',
+  title: 'Full Stack Web Design',
+  courses: [
+    {
+      courseId: 'fe-01',
+      title: 'Basic HTML and CSS',
+      level: 'Beginner',
+      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      skills: ['C Programming', 'Embedded ARM processor'],
+      certificates: ['Embedded C Programmer']
+
+    },
+    {
+      courseId: 'fe-02',
+      title: 'Basic Javascript',
+      level: 'Beginner',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
       certificates: ['Embedded C Programmer', 'C Embedded Developer']
@@ -163,6 +188,7 @@ module.exports = {
     console.log('Creating new catalog entry...')  
     Promise.all([
       this._createNewEntry('tester@team.com', catalog01), 
+      this._createNewEntry('tester@team.com', catalog02), 
     ]).then(values => {
       console.log('Created all catalog.')
       done && done();
