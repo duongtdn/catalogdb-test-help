@@ -18,7 +18,7 @@ const catalog01 = {
       title: 'Beginning Embedded C Programming',
       snippet: 'A course design for beginner',
       level: 'Beginner',
-      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded ARM processor'],
       certificates: ['Embedded C Programmer']
 
@@ -28,7 +28,7 @@ const catalog01 = {
       title: 'Embedded Peripherals Programming',
       snippet: 'A course design for people who have basic knowledge',
       level: 'Intermidate',
-      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
       certificates: ['Embedded C Programmer', 'C Embedded Developer']
     },
@@ -37,7 +37,7 @@ const catalog01 = {
       title: 'Applied C for Embedded Programming in Detail',
       snippet: 'A course design for people who want to explore more',
       level: 'Advanced',
-      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
       certificates: ['Embedded C Programmer', 'C Embedded Developer']
     }
@@ -54,7 +54,7 @@ const catalog02 = {
       title: 'Basic HTML and CSS',
       snippet: 'A course design for beginner',
       level: 'Beginner',
-      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded ARM processor'],
       certificates: ['Embedded C Programmer']
 
@@ -64,7 +64,7 @@ const catalog02 = {
       title: 'Basic Javascript',
       snippet: 'A course design for beginner',
       level: 'Beginner',
-      picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+      thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
       certificates: ['Embedded C Programmer', 'C Embedded Developer']
     }
