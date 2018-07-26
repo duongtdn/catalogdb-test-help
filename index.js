@@ -16,6 +16,7 @@ const catalog01 = {
     {
       courseId: 'emb-01',
       title: 'Beginning Embedded C Programming',
+      snippet: 'A course design for beginner',
       level: 'Beginner',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded ARM processor'],
@@ -25,6 +26,7 @@ const catalog01 = {
     {
       courseId: 'emb-02',
       title: 'Embedded Peripherals Programming',
+      snippet: 'A course design for people who have basic knowledge',
       level: 'Intermidate',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
@@ -33,6 +35,7 @@ const catalog01 = {
     {
       courseId: 'emb-03',
       title: 'Applied C for Embedded Programming in Detail',
+      snippet: 'A course design for people who want to explore more',
       level: 'Advanced',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
@@ -49,6 +52,7 @@ const catalog02 = {
     {
       courseId: 'fe-01',
       title: 'Basic HTML and CSS',
+      snippet: 'A course design for beginner',
       level: 'Beginner',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded ARM processor'],
@@ -58,6 +62,7 @@ const catalog02 = {
     {
       courseId: 'fe-02',
       title: 'Basic Javascript',
+      snippet: 'A course design for beginner',
       level: 'Beginner',
       picture: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
       skills: ['C Programming', 'Embedded processor'],
