@@ -10,36 +10,36 @@ const db = {
 }
 
 const catalog01 = {
-  catalogId: 'ca-emb',
-  title: 'Embedded System Design',
-  courses: [
+  "catalogId": "ca-emb",
+  "title": "Embedded System Design",
+  "courses": [
     {
-      courseId: 'emb-01',
-      title: 'Beginning Embedded C Programming',
-      snippet: 'A course design for beginner',
-      level: 'Beginner',
-      thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*z8cxJptPtl2JEERdYXChkQ.png',
-      skills: ['C Programming', 'Embedded ARM processor'],
-      certificates: ['Embedded C Programmer']
+      "courseId": "emb-01",
+      "title": "Beginning Embedded C Programming",
+      "snippet": "A course design for beginner",
+      "level": "Beginner",
+      "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*z8cxJptPtl2JEERdYXChkQ.png",
+      "skills": ["C Programming", "Embedded ARM processor"],
+      "certificates": ["Embedded C Programmer"]
 
     },
     {
-      courseId: 'emb-02',
-      title: 'Embedded Peripherals Programming',
-      snippet: 'A course design for people who have basic knowledge',
-      level: 'Intermidate',
-      thumbnail: 'https://harmonyed.com/wp-content/uploads/Online-Courses-1-300x20031.png',
-      skills: ['C Programming', 'Embedded processor'],
-      certificates: ['Embedded C Programmer', 'C Embedded Developer']
+      "courseId": "emb-02",
+      "title": "Embedded Peripherals Programming",
+      "snippet": "A course design for people who have basic knowledge",
+      "level": "Intermidate",
+      "thumbnail": "https://harmonyed.com/wp-content/uploads/Online-Courses-1-300x20031.png",
+      "skills": ["C Programming", "Embedded processor"],
+      "certificates": ["Embedded C Programmer", "C Embedded Developer"]
     },
     {
-      courseId: 'emb-03',
-      title: 'Applied C for Embedded Programming in Detail',
-      snippet: 'A course design for people who want to explore more',
-      level: 'Advanced',
-      thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4MSngvOcZcc_xlli8B0AuwMJCHIChtTtjt0wPTdwS-Tc8Xsi',
-      skills: ['C Programming', 'Embedded processor'],
-      certificates: ['Embedded C Programmer', 'C Embedded Developer']
+      "courseId": "emb-03",
+      "title": "Applied C for Embedded Programming in Detail",
+      "snippet": "A course design for people who want to explore more",
+      "level": "Advanced",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4MSngvOcZcc_xlli8B0AuwMJCHIChtTtjt0wPTdwS-Tc8Xsi",
+      "skills": ["C Programming", "Embedded processor"],
+      "certificates": ["Embedded C Programmer", "C Embedded Developer"]
     }
   ]
   
